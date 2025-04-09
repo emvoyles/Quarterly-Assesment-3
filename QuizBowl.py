@@ -205,7 +205,7 @@ class QuizInterface:
 
     def login_screen(self):
         password = simpledialog.askstring("Admin Login", "Enter password:", show='*')
-        if password == "admin123":
+        if password == "lebronjames":
             # Directly open the admin interface after successful login
             AdminInterface(self.root)
         else:
